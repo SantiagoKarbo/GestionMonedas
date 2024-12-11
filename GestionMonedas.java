@@ -2,16 +2,17 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class Moneda {
+    //Declaración de los atributos en privado para acceder a ellos mediante getters
     private String pais;
     private String denominacion;
     private int anoEmision;
-
+    //Creción del objeto moneda con los parametros declarados anteriormente
     public Moneda(String pais, String denominacion, int anoEmision) {
         this.pais = pais;
         this.denominacion = denominacion;
         this.anoEmision = anoEmision;
     }
-
+    //
     public String getPais() {
         return pais;
     }
